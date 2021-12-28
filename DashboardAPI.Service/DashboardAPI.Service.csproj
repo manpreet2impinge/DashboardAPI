@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DashboardAPI.Data\DashboardAPI.Context.csproj" />
+    <ProjectReference Include="..\DashboardAPI.Model\DashboardAPI.Model.csproj" />
+    <ProjectReference Include="..\DashboardAPI.Repositories\DashboardAPI.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DashboardAPI.Data\DashboardAPI.Context.csproj" />
+    <ProjectReference Include="..\DashboardAPI.Entities\DashboardAPI.Entities.csproj" />
+    <ProjectReference Include="..\DashboardAPI.Model\DashboardAPI.Model.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,27 @@
+{
+    "ApiConfig":
+    {
+        "BasePath": "dashboard",
+        "HealthCheck": "/HealthCheck",
+        "Priority": 368,
+        "ConfigBuckets":
+        [
+            {
+                "Id": "DEFAULT_CONFIG",
+                "FolderPath": "DashboardAPI",
+                "EnvName": "BucketPath"
+            }
+        ],
+        "EnvironmentVariables":
+        {
+            "ASPNETCORE_ENVIRONMENT": "Development"
+        }
+    },
+    "Repository":
+    {
+        "Name": "dashboard-api"
+    },
+    "S3Settings":
+    {
+    }
+}
